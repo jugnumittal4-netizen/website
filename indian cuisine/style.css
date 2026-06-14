@@ -1,0 +1,31 @@
+body ,  html{
+    height : 100%;
+    margin: 0;
+    font-size : 16px;
+    font-family : "lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.6em;
+    color : #666;
+    background-color : #b6f8ef;
+}
+.pimg1, .pimg2, .pimg3{
+    position : relative;
+    opacity : 0.70;
+    background-position : center;
+    background-size : cover;
+    background-repeat : no-repeat;
+    /* fixed = parallax */
+    background-attachment : fixed;
+}
+.pimg1{
+    background-image : url("if.jpeg");
+    min-height : 100%;
+}
+.pimg2 {
+    background-image: url("if2.jpeg");
+    min-height: 100%;
+}
+.pimg3 {
+    background-image: url("if3.jpeg");
+    min-height: 100%;
+}
